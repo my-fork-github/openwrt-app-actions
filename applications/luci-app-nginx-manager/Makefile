@@ -6,7 +6,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI support for NginxManager
-LUCI_DEPENDS:=+luci-nginx +luci-ssl-nginx +luci-compat +luci-lib-nixio
+LUCI_DEPENDS:=+luci-nginx +luci-ssl-nginx +luci-ssl-openssl +luci-compat +luci-lib-nixio
 LUCI_PKGARCH:=all
 PKG_VERSION:=1.0
 PKG_RELEASE:=20211030
